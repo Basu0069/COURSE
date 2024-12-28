@@ -125,7 +125,39 @@ border: 1px solid white ;
 }
 
 
+.nav3{
+    background-color: #25bdc2;
+    padding: 10px;
+}
 
+.nav3 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around ;   /* this is for left to right  */
+    align-items: center;  /* this is for top to bottom   */
+}
+
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+
+}
+
+.nav3 .dropdown-content{
+    display: none;
+}
+
+.nav3 .dropdown:hover .dropdown-content{
+    display: block;
+    /* position absolute take it apart moves to new locatioon smja reasearch it then.. */
+    position: absolute;
+    background-color: #3e3e3e;
+    min-width: 150px;
+}
 
 </style>
 </head>
@@ -166,7 +198,10 @@ border: 1px solid white ;
                     <a href="#">About</a>
                     <div class="dropdown-content">
                         <a href="#">Our Story</a>
-
+                        <a href ="#">Team</a>
+                        <a href ="#">Contact</a>
+                    </div>
+                    </li>
                         <li><a href="#">Products</a></li>
                         <li><button class="login-btn">Login</button></li>
             </ul>
