@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+
+    <div class="w-96 h-96 bg-pink-500 flex justify-center items-center border-4 border-gray-500">
+        <img src="/src/JavascriptClass/images.jpeg"  alt="brad"  class="w-64 h-64" onmouseout="inc()">
+    </div>
+
+
+<form action="">
+    <input type="text" name="" id="" class="border-2 w-40" onselect="keygen()">
+</form>
+
+
+
+    <script>
+        function genAlert(){
+            alert("You hovered over the image!!");
+        }
+
+        var ct = 0;
+
+        function inc(){
+            ct++;
+            console.log(ct);
+        }
+
+
+
+
+        function keygen(){
+            alert("You pressed the key!!");
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+<!-- try all the mouse events that i have written on my notes -->
+ <!-- onmousedown mei jab clikc kro tb alert aata h 
+  onclick mei when u relase then u get the notification  -->
+
+
+<!-- onmouseup mei aap kahi bi press kro pr relase pic pe kro tbi work krega  -->
+<!-- onmouseout works both for parent and child  -->
+
+
+<!-- On keypress mei special characters mei notification ni aati h   -->
+ <!-- onkeydown mei special characer pe sb pe  alert aayega  -->
+  <!-- onkeyup mei when u realse the key only then the notfication came iokay  -->
+
+
+
+  <!-- onblur mei jab focus ht jaayge tb u get notification -->
+   <!-- onchange mei when u change only then u get nottification -->
+    <!-- onfocus mie when u focus on it then.. but yhe tera loop chl jayega iska  -->
+    <!-- onselect mei when u select insdei it only then u get notifcation  -->

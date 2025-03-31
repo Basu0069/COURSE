@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body>
+
+    <!-- HIghest z index means element will be at top and lowest means elemenet at lowest.  -->
+    
+    <div class="w-96 h-96 border-2 border-solid border-red-500 m-10 bg-amber-200 relative -z-10">
+        <div class="w-24 h-24 border-2 bg-purple-500 absolute top-8 left-10 ">1</div>
+        <div class="w-24 h-24 border-2 bg-red-500 absolute top-12 left-12 -z-20">2</div>
+        <div class="w-24 h-24 border-2 bg-gradient-to-bl from-pink-300 to-orange-500 absolute top-16 left-16">3</div>
+        <!-- 3div is not working  -->
+        <div class="w-24 h-24 border-2 bg-radial-[at_10%_15%] from-blue-200 to-red-500 absolute rounded-full bottom-5 left-5 "></div>
+
+
+        <!-- <div class="w-24 h-24 border-2 bg-conic-270 from-blue-200 to-red-500 absolute rounded-full bottom-5 left-5 "></div> -->
+    </div>
+
+</body>
+</html>
