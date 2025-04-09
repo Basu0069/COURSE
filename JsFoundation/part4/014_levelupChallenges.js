@@ -5,17 +5,17 @@
 
  */
 
-//  let teas = ["green tea", "black tea","chai","oolong tea"];
-//  let selectedTeas=[]; // ye ek khali array bna di hj okaye 
+ let teas = ["green tea", "black tea","chai","oolong tea"];
+ let selectedTeas=[]; // ye ek khali array bna di hj okaye 
 
 
-//  for(let i = 0; i<teas.length;i++){
-//     if(teas[i]==='chai'){
-//         break;
-//     }
-//     selectedTeas.push(teas[i])
-//  }
-//  console.log(selectedTeas);
+ for(let i = 0; i<teas.length;i++){
+    if(teas[i]==='chai'){
+        break;
+    }
+    selectedTeas.push(teas[i])
+ }
+ console.log(selectedTeas);
 
 
 /* 2. Write a for loop that loops through the arrray ["london","New York","Paris","Berlin"] and skips "Paris". 
@@ -38,18 +38,18 @@ Store the other cities in a new array named 'visitedCities'. */
 3. Use a for -of loop to iterate through the array [1,2,3,4,5] and stop when the number '4' is found. Store the numbers before '4' in an array named 'smallNumbers'.
 */
 
-//  let numbers = [1,2,3,4,5]
-//  let smallNumbers=[]
+ let numbers = [1,2,3,4,5]
+ let smallNumbers=[]
 
-// //  num is individual element and numnbers is array
+//  num is individual element and numnbers is array
 
-//  for (const num of numbers){
-//     if(num ===4){
-//         break;
-//     }
-//     smallNumbers.push(num);
-//  }
-//  console.log(smallNumbers);
+ for (const num of numbers){
+    if(num ===4){
+        break;
+    }
+    smallNumbers.push(num);
+ }
+ console.log(smallNumbers);
 
 
 
@@ -58,17 +58,17 @@ Store the other cities in a new array named 'visitedCities'. */
 Store the other teas in an array named 'preferredTeas'.
 */
 
-//  let teaTypes=["chai","green tea","herbal tea","black tea"];
-//  let preferredTeas= [];
+ let teaTypes=["chai","green tea","herbal tea","black tea"];
+ let preferredTeas= [];
   
 
-//  for(const tea of teaTypes){
-//     if(tea === "herbal tea"){
-//         continue;
-//     }
-//     preferredTeas.push(tea)
-//  }
-// console.log(preferredTeas);
+ for(const tea of teaTypes){
+    if(tea === "herbal tea"){
+        continue;
+    }
+    preferredTeas.push(tea)
+ }
+console.log(preferredTeas);
 
 
 
