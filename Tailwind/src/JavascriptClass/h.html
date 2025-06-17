@@ -1,0 +1,29 @@
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch/  
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="m-0 p-0">
+    <div id="divv" class="bg-red-500 p-2 inline-block mt-7 text-white hover:bg-black hover:text-red-500">
+        I am a div
+    </div>
+    <br>
+    <button class="bg-blue-400 border-2 rounded-md mt-6 text-white px-4 py-2 hover:bg-blue-600" onclick="toggleDiv()">
+        Click me
+    </button>
+    
+    <script>
+        function toggleDiv() {
+            const div = document.getElementById("divv");
+            div.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
