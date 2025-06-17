@@ -72,51 +72,45 @@ console.log(preferredTeas);
 
 
 
-/**
- 5.Use a 'for-in' loop to loop through an object containing city populations.
- Stop the loop when the population of "Berlin" is found and store all previous cities' populations in a new object named 'cityPopulations'.
+
+//  5.Use a 'for-in' loop to loop through an object containing city populations.
+//  Stop the loop when the population of "Berlin" is found and store all previous cities' populations in a new object named 'cityPopulations'.
  
+//  let citiesPopulation={
+//  "London": 8900000;
+//  "New York": 8400000,
+//  "Paris": 2200000,
+//  "Berlin": 3500000};
+
+ 
+
+
  let citiesPopulation={
- "London": 8900000;
- "New York": 8400000,
- "Paris": 2200000,
- "Berlin": 3500000};
-
- */
-
-
-//  let citiesPopulation={
-//     "London": 8900000,
-//     "New York": 8400000,
-//     "Paris": 2200000,
-//     "Berlin": 3500000
-// }; // this is not a block of code this is an object okay  it has key and value 
+    "London": 8900000,
+    "New York": 8400000,
+    "Paris": 2200000,
+    "Berlin": 3500000
+}; // this is not a block of code this is an object okay  it has key and value 
 
 
 
 
-//  let citiesPopulation={
-//     London: 8900000,
-//     "New York": 8400000,
-//     Paris: 2200000,
-//     Berlin: 3500000
-// }; // this is not a block of code this is an object okay  it has key and value 
 
-// let cityNewPopulations= {};
-// // console.log(Object.keys(citiesPopulation)); // aise likhte h thik h ye wriiten h alr search it on javascript 
-// // console.log(Object.values(citiesPopulation)); 
+let cityNewPopulations= {};
+// console.log(Object.keys(citiesPopulation)); // aise likhte h thik h ye wriiten h alr search it on javascript 
+// console.log(Object.values(citiesPopulation)); 
 
 // // THere are lots of methods of object just search it up okie 
 
 
 // for (const city in citiesPopulation) {  // const key mtlb it will look thorugh each key in object 
 
-//     if(city == "Berlin"){
-//         break;
-//     }
-// //  console.log(city);
-// //  console.log(citiesPopulations[city]); // make sure to use squarre bracket insdie it okay
-// // key =value 
+    if(city == "Berlin"){
+        break;
+    }
+//  console.log(city);
+//  console.log(citiesPopulations[city]); // make sure to use squarre bracket insdie it okay
+// key =value 
 // cityNewPopulations[city] = citiesPopulation[city]
 //     }
 // console.log(cityNewPopulations);   
@@ -154,7 +148,7 @@ console.log(preferredTeas);
     
 
 
-
+// from here
 
 
 /**
@@ -212,7 +206,6 @@ let traveldCities=[];
 // });
 
 // They both behave same as exactly 
-
 // myWorldCities.forEach(function (City){
 //     if(city ==="Sydney"){
 //         return;
@@ -230,14 +223,14 @@ let traveldCities=[];
  * Skip the value '7' and multiply the rest by 2.Store the results in a new array named 'doubedNumbers'. 
 
  */
-// let myNumbers= [2,5,7,9];
-// let doubleNumbers= [];
-// for(let i=0;i<myNumbers.length;i++){
-//     if(numbers[i] ===7){
-//         continue;
-//     }
-//     doubledNumbers.push(numbers[i]*2);
-// }
+let myNumbers= [2,5,7,9];
+let doubleNumbers= [];
+for(let i=0;i<myNumbers.length;i++){
+    if(numbers[i] ===7){
+        continue;
+    }
+    doubledNumbers.push(numbers[i]*2);
+}
 
 
 /**
@@ -247,15 +240,15 @@ let traveldCities=[];
  */
 
 
-// let myTeas= ["chai","green tea","black tea","jasmine tea","herbal tea"];
-// let shortTeas=[];
+let myTeas= ["chai","green tea","black tea","jasmine tea","herbal tea"];
+let shortTeas=[];
 
-// for(const tea of myTeas){
-//     if(tea.length > 10){
-//         break;
-//     }
-//     shortTeas.push(tea);
-// }
+for(const tea of myTeas){
+    if(tea.length > 10){
+        break;
+    }
+    shortTeas.push(tea);
+}
 
 
 

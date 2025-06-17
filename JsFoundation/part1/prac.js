@@ -1,8 +1,7 @@
-let teaTypes=["chai","green tea","herbal tea","black tea"];
-let preferredTea=[];
+function makeTea(typeOfTea){
+    return `maketea; ${typeOfTea}`;
+}
 
-for(const tea of teatypes){
-    if(tea === "herbal tea"){
-        continue;
-    }
+function processTeaOrder(teaFucntion){
+    return tea
 }

@@ -1,8 +1,13 @@
-let sum = 0;
-let i = 1;
 
-while(i<=5){
-    sum = sum+i ;
-    i++;
+function makeTea(typeOfTea){
+   return `maketea: ${typeOfTea}`;
 }
-console.log(sum)
+
+function processTeaOrder(teaFunction){
+   return teaFunction('earl grey')
+}
+// THe original name of the teafunction is maketea so thats why it is returining nothing 
+
+let order = processTeaOrder(makeTea)
+console.log(order);
+ 
