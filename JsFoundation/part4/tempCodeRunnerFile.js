@@ -1,13 +1,16 @@
-
-function makeTea(typeOfTea){
-   return `maketea: ${typeOfTea}`;
+function createTeaMaker(name){
+    let score = 100 
+    return function(teaType){
+        return `Making ${teaType} ${name} ${score}`;
+        // i still have access to this name from the outside u get it 
+        // i still have access to score without passing in it thats special feature of javascript which is only evoked insdied the function not anything else okay 
+    };
 }
 
-function processTeaOrder(teaFunction){
-   return teaFunction('earl grey')
-}
-// THe original name of the teafunction is maketea so thats why it is returining nothing 
+let teaMaker  = createTeaMaker("hitesh ");
+// execute 1 way 
+// console.log(teaMaker("green tea "));
 
-let order = processTeaOrder(makeTea)
-console.log(order);
- 
+// execute 2 way 
+let result = teaMaker("green Tea");
+console.log(result);
